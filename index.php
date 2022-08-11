@@ -303,6 +303,14 @@ include "inc/koneksi.php";
 									</p>
 								</a>
 							</li>
+							<li class="nav-item">
+								<a href="?page=upload-data" class="nav-link">
+									<i class="nav-icon fas fa-upload"></i>
+									<p>
+										Upload Data
+									</p>
+								</a>
+							</li>
 
 						<?php
 						} elseif ($data_level == "Kaur Pemerintah") {
@@ -582,6 +590,9 @@ include "inc/koneksi.php";
 							case 'view-pend':
 								include "admin/pend/view_pend.php";
 								break;
+							case 'upload':
+								include "admin/pend/uploader.php";
+								break;
 
 								//laki
 							case 'data-laki':
@@ -756,6 +767,11 @@ include "inc/koneksi.php";
 								break;
 							case 'view-berisiko':
 								include "admin/berisiko/view_berisiko.php";
+								break;
+
+								//upload
+							case 'upload-data':
+								include "upload.php";
 								break;
 
 								//default
