@@ -3,12 +3,12 @@
         <div class="col-md-12 mt-4">
             <div class="card">
                 <div class="card-header">
-                    <h4>Upload Data Excel Ke Database</h4>
+                    <h4>Import Data Excel Ke Database</h4>
                 </div>
                 <div class="card-body">
                     <form action="code.php" method="POST" enctype="multipart/form-data">
                         <input type="file" name="import_file" class="form-control">
-                        <button type="submit" name="save_data" class="btn btn-primary">Upload</button>
+                        <button type="submit" name="save_data" class="btn btn-primary">Import</button>
                     </form>
                 </div>
                 <div class="btn btn-secondary">
