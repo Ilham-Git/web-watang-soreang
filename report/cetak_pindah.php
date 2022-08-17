@@ -38,6 +38,10 @@ $tgl = date("d/m/y");
 		p.ttd {
 			margin-left: 60%;
 		}
+
+		.kanan {
+			opacity: 0;
+		}
 	</style>
 </head>
 
@@ -53,7 +57,7 @@ $tgl = date("d/m/y");
 					</h3>
 				</center>
 			</td>
-			<td><img src="../dist/img/LogoWeb.png"></td>
+			<td><img class="kanan" src="../dist/img/LogoWeb.png"></td>
 		</tr>
 	</table>
 	<?php
